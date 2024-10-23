@@ -10,18 +10,20 @@ import img6 from "../../../public/desktopGallery/img6.jpg";
 import img7 from "../../../public/desktopGallery/img7.jpg";
 import img8 from "../../../public/desktopGallery/img8.jpg";
 import img9 from "../../../public/desktopGallery/img9.jpg";
+import { useTranslations } from "next-intl";
 
 const DesktopGallery = () => {
+  const t = useTranslations("Gallery");
   const visibleImages = [
-    { id: 1, alt: " gallery image", src: img1 },
-    { id: 2, alt: " gallery image", src: img2 },
-    { id: 3, alt: " gallery image", src: img3 },
-    { id: 4, alt: " gallery image", src: img4 },
-    { id: 5, alt: " gallery image", src: img5 },
-    { id: 6, alt: " gallery image", src: img6 },
-    { id: 7, alt: " gallery image", src: img7 },
-    { id: 8, alt: " gallery image", src: img8 },
-    { id: 9, alt: " gallery image", src: img9 },
+    { id: 1, src: img1 },
+    { id: 2, src: img2 },
+    { id: 3, src: img3 },
+    { id: 4, src: img4 },
+    { id: 5, src: img5 },
+    { id: 6, src: img6 },
+    { id: 7, src: img7 },
+    { id: 8, src: img8 },
+    { id: 9, src: img9 },
   ];
 
   return (
@@ -31,7 +33,7 @@ const DesktopGallery = () => {
     >
       <div className="relative w-full max-w-[1920px] mx-auto">
         <h1 className="mb-6 text-[26px] leading-[37.57px]  font-semibold lg:text-[38px] lg:leading-[54.91px]">
-          LAST EVENT GLIMPSE
+          {t("title")}
         </h1>
         <div className="w-full">
           <Marquee speed={100} gradient={false} pauseOnHover={true}>
@@ -40,8 +42,8 @@ const DesktopGallery = () => {
                 <Image
                   src={item.src}
                   alt={`gallery ${item.id}`}
-                  width={237}
-                  height={152}
+                  width={290}
+                  height={186}
                 />
               </div>
             ))}

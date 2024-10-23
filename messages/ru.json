@@ -1,10 +1,12 @@
 {
   "Hero": {
-    "event_title_1": "САМЫЙ БОЛЬШОЙ",
-    "event_title_2": "ВСТРЕЧА ДЛЯ ИНВЕСТОРОВ",
-    "event_title_3": "В БАНГАЛОРЕ",
-    "event_date": "9-10 Ноября, 2024",
-    "event_location": "JW Marriott, Бенгалуру",
+    "event_title_1": "КРУПНЕЙШЕЕ",
+    "event_title_2": "СОБРАНИЕ ИНВЕСТОРОВ",
+    "event_title_3": "В ХАЙДЕРАБАДЕ",
+    "event_titleMob_1": "КРУПНЕЙШЕЕ СОБРАНИЕ ИНВЕСТОРОВ",
+    "event_titleMob_2": "В БАНГАЛОРЕ",
+    "event_date": "9-10 ноября 2024 г.",
+    "event_location": "Отель Park Hyatt, Хайдарабад",
     "book_your_spot": "ЗАБРОНИРУЙТЕ МЕСТО",
     "booking_message": "Вы сэкономите 5-10%, если забронируете в день мероприятия.",
 

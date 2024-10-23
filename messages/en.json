@@ -2,20 +2,22 @@
   "Hero": {
     "event_title_1": "BIGGEST  ",
     "event_title_2": "INVESTOR'S MEET",
-    "event_title_3": "IN BANGALORE",
+    "event_title_3": "IN HYDERABAD",
+    "event_titleMob_1": "BIGGEST INVESTOR'S",
+    "event_titleMob_2": " MEET IN HYDERABAD",
     "event_date": "9-10 Nov, 2024 ",
-    "event_location": "JW Marriott, Bengaluru",
+    "event_location": "Park Hyatt Hotel, Hyderabad",
     "book_your_spot": "BOOK YOUR SPOT",
     "booking_message": "You will save 5-10% more if you're booking on event day.",
 
     "submit_button": "SUBMIT",
 
     "event_offering": "Exclusive Event Offering",
-    "benefit_1": "4% DLD Waiver",
-    "benefit_2": "Zero service charges for 2 Years",
-    "benefit_3": "Fully Furnished Apartments near Wynn Resort",
-    "benefit_4": "Interest Free payment Plan",
-    "benefit_5": "Free 2 Days Dubai Trip"
+    "benefit_1": "Interest Free payment Plan",
+    "benefit_2": "Free 2 Days Dubai Trip",
+    "benefit_3": "4% DLD Waiver",
+    "benefit_4": "Zero service charges for 2 Years",
+    "benefit_5": "Fully Furnished Apartments near Wynn Resort"
   },
   "Gallery": {
     "title": " LAST EVENT GLIMPSE"
