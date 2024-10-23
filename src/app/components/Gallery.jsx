@@ -29,7 +29,7 @@ function Gallery() {
       id="gallery"
       className="w-full text-center bg-[#F5F5F5] pt-8 pb-10"
     >
-      <div className="relative w-[90%] m-auto">
+      <div className="relative m-auto">
         <h1 className="mb-4 text-[26px] leading-[37.57px]  font-semibold lg:text-[38px] lg:leading-[54.91px]">
           LAST EVENT GLIMPSE
         </h1>

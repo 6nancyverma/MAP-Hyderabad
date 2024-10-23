@@ -19,8 +19,8 @@ const Hero = () => {
         <h1 className="text-[30px] leading-[40px] font-bold uppercase">
           Biggest Investor’s <br /> meet in Hyderabad
         </h1>
-        <h2 className="text-[16px] text-[#A01010] font-medium leading-[23.12px] uppercase ">
-          9-10 Nov. 2024 <span className="mx-2">|</span> Park Hyatt Hotel,
+        <h2 className="text-[16px] text-[#A01010] font-medium leading-[23.12px] uppercase mt-2 ">
+          9-10 Nov. 2024 <span className="mx-1">|</span> Park Hyatt Hotel,
           Hyderabad
         </h2>
       </div>
