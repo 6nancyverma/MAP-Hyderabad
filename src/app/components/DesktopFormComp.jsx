@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 // import {
@@ -10,7 +10,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 // } from "../utils/utils";
 
 import PhoneInput from "react-phone-input-2";
-import "../phone.css";
+import "../[locale]/phone.css";
 
 function DesktopFormComp({ formName, setLoad, loc }) {
   let router = useRouter();

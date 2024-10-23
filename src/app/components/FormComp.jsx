@@ -10,7 +10,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 // } from "../utils/utils";
 
 import PhoneInput from "react-phone-input-2";
-import "../phone.css";
+import "../[locale]/phone.css";
 
 function Form({ formName, setLoad, loc }) {
   let router = useRouter();
